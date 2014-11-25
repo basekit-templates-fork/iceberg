@@ -1,7 +1,7 @@
 {
-    "name":"Nordic",
-    "thumbnail":"nordic.png",
-    "screenshot":"nordic.png",
+    "name":"Iceberg",
+    "thumbnail":"iceberg.png",
+    "screenshot":"iceberg.png",
     "templateType":"standard",
     "pageTypes": ["home"],
     "tags": {
@@ -58,9 +58,9 @@
         }
     },
     "fontSwatch": {
-       "title": "Lato",
+       "title": "Droid Sans",
         "font1": {
-            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "60px",
             "font-weight": "400",
             "line-height": "64px",
@@ -68,7 +68,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
             "font-size": "24px",
             "font-weight": "inherit",
             "line-height": "26px",
@@ -111,7 +111,7 @@
             "background-color-hover": "transparent"
         },
         "font7": {
-            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+            "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
             "font-size": "15px",
             "font-weight": "400",
             "line-height": "24px",
@@ -121,7 +121,7 @@
             "background-color-hover": "lighten(@color-swatch3,8%)"
         },
         "font8": {
-            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
+            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
             "font-size": "60px",
             "font-weight": "400",
             "line-height": "64px",
@@ -137,7 +137,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Abel\", \"Lucida Console\", monospace",
+            "font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
             "font-size": "30px",
             "font-weight": "400",
             "line-height": "40px",
