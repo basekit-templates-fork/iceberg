@@ -446,6 +446,10 @@ div.widget .extendednavigation > ul, div.widget.extendednavigation > ul {
 
 /* 7. Blog */
 
+article.blog-post-item {
+	margin-bottom: 3em;
+}
+
 .blogpost, .blog-post-list {
     .blog-post-feature-image-wrap {
         line-height: 0;
@@ -666,6 +670,10 @@ div.widget .extendednavigation > ul, div.widget.extendednavigation > ul {
 		color: lighten(@color-swatch5, 20%);
 		font-size: bkscale(@font-swatch5-font-size, 1.25);
 	}
+}
+
+.widget.ecomproduct .ecom-product .ecom-product-preview-image-wrap {
+	background-image: none !important;
 }
 
 .widget.ecomcheckout {
@@ -921,6 +929,13 @@ div.widget .extendednavigation > ul, div.widget.extendednavigation > ul {
 	}
 }
 
+.widget.ecombasket .ecombasket-list-container ul li .ecombasket-item-info .ecombasket-remove-button {
+	border-radius: 0;
+	height: auto;
+	line-height: normal;
+	background: none;
+	border: none;
+}
 
 /* 10. Forms */
 
@@ -968,10 +983,15 @@ button:hover, button.btn:hover, .widget.tweet a:hover, .widget.button.paypal:hov
 	line-height: 50px;
 }
 
-input, .widget.profile form fieldset input, .widget.tweet a, .widget.ecombasket .ecombasket-pull, .widget.ecombasket .ecombasket-pull p, .widget.paypalbuynow .widget.button.paypal, a.checkout-empty-link, button {
+input, .widget.profile form fieldset input, .widget.tweet a, .widget.ecombasket .ecombasket-pull, .widget.ecombasket .ecombasket-pull p, .widget.paypalbuynow .widget.button.paypal, a.checkout-empty-link, button, .ecom-product-go-to-checkout-btn, .ecombasket-summary-link {
 	.border-radius(4px);
 	line-height: 50px;
 	height: 50px;
+	text-decoration: none;
+}
+
+a.ecombasket-summary-link {
+	text-decoration: none;
 }
 
 input.blog-search-input, .widget.signupform input, .widget.profile form fieldset input, input.js-display-control {
