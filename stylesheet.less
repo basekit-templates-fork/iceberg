@@ -85,12 +85,14 @@ body {
 .widget {
 	&.logo, &.companyname {
 		display: inline-block;
+		will-change: transform;
 		z-index: 9999;
 	}
 	&.logo {
 		margin-right: 3px;
 		vertical-align: top;
 		img {
+			will-change: transform;
 			@media @mobile {
 				max-width: 80%;
 				vertical-align: top;
