@@ -1,7 +1,7 @@
 {
     "name":"Iceberg",
     "thumbnail":"iceberg.png",
-    "screenshot":"iceberg.png",
+    "screenshot":"iceberg-screenshot.jpg",
     "templateType":"standard",
     "pageTypes": ["home"],
     "tags": {
