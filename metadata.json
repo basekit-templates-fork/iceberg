@@ -1,5 +1,6 @@
 {
     "name":"Iceberg",
+    "versionTenCompatible": 1,
     "thumbnail":"iceberg.png",
     "screenshot":"iceberg-screenshot.jpg",
     "templateType":"standard",
