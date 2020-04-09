@@ -41,6 +41,13 @@ body {
 	 background: @color-swatch1;
 }
 
+html,
+#wrap,
+.bk-pt-home {
+    height: 100%;
+}
+
+
 .bk-pt-home {
 	.widget.feature + .bk-header {
 		background: transparent;
@@ -74,11 +81,14 @@ body {
 }
 
 .bk-header {
+    .align-items(center);
 	background: lighten(@color-swatch6, 5%);
-	padding: 30px;
+    .flex-display;
+    .flex-wrap(wrap);
+    padding: 30px 100px 30px 30px;
 	width: 100%;
 	@media @mobile {
-		padding: 25px 30px 15px;
+		padding: 25px 75px 15px 30px;
 	}
 }
 
@@ -89,7 +99,7 @@ body {
 		z-index: 9999;
 	}
 	&.logo {
-		margin-right: 3px;
+		margin-right: 6px;
 		vertical-align: top;
 		img {
 			will-change: transform;
